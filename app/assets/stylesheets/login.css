@@ -1,0 +1,135 @@
+body{
+   
+    background-color:#DCF4FE;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  
+  }
+  .container{
+    
+    width:80%;
+    margin-right:20px;
+    margin-left:20px;
+    height:400px;
+    box-sizing:border-box;
+    background: #DCF4FE;
+    display:flex;
+       margin-top:12rem;
+  
+     margin-bottom:12rem;
+  
+    
+  }
+  
+  .content{
+    width:50%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    padding-left:100px;
+    justify-content:center;
+    border-radius:8px;
+    background: #fff;
+  
+    padding:2%;
+    box-shadow:  -1px -1px 98px #8a8a8a,
+               21px 21px 78px #eaeaea;
+  
+    
+  }
+  .content label{
+    width:20%;
+    padding:5px;
+    margin-top:10px;
+  }
+  
+  .input-field {
+    width: 50%;
+    padding: 8px;
+    margin-bottom:20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    transition: border-color 0.6s ease;
+  }
+  
+  .input-field:focus {
+    border-color: blue;
+    outline: none; 
+  }
+  
+  button{
+  background-color:blue;
+    width:40%;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:30px;
+    font-size:20px;
+    margin-top:20px;
+  margin-bottom:20px;
+  }
+  .forget{ 
+  display:flex;
+    gap:20px;
+    padding:20px;
+  }
+  
+  .right{
+    width:50%;
+    padding:2%;
+    height:400px;
+    background-image:url("https://assets-global.website-files.com/614cf141405fb1814fc82700/62eaa1c74a8415b0efc347ac_random-asset-7.webp");
+    background-position:bottom;
+    background-size:cover;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  
+  }
+  .content-top{
+    background-color:#9F92F6;
+    width:60%;
+    height:100%;
+    border-radius:10px;
+  background-image:url("https://i.imgur.com/LAOlMpl.png");
+    background-position:center;
+    background-size:contain;
+    background-repeat:no-repeat;
+  
+  }
+  
+  @media (max-width: 500px){
+    body{
+      display:block;
+      overflow-x:hidden;
+    }
+    .container{
+      display:grid;
+        margin-right:0;
+    margin-left:0;
+      margin-right:0;
+  
+    }
+    .content{
+      width:100%;
+      padding:20px;
+      order:2;
+    }
+    .right{
+      display:flex;
+      width:100%;
+      margin-top:20px;
+      padding:20px;
+      order:1;
+      margin-top:0;
+    }
+    button{
+      width:100%;
+    }
+    .content-top{
+    width:100%;
+    }
+  }
+   
